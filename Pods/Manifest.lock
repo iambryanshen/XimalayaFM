@@ -1,0 +1,16 @@
+PODS:
+  - SFExtensions (0.0.1)
+
+DEPENDENCIES:
+  - SFExtensions (~> 0.0.1)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - SFExtensions
+
+SPEC CHECKSUMS:
+  SFExtensions: 4c328f408b26f132a1d4284ce0d4e913bbaee877
+
+PODFILE CHECKSUM: e390191196c78d9ef4d69e6b3e6322913ef22bf4
+
+COCOAPODS: 1.5.0

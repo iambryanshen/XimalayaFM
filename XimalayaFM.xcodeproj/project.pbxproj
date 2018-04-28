@@ -7,21 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D3018C8C208EF0F50029705B /* SFHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3018C8B208EF0F50029705B /* SFHomeViewController.swift */; };
+		D3018C8E208EF0FD0029705B /* SFMyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3018C8D208EF0FD0029705B /* SFMyViewController.swift */; };
+		D3018C90208EF1040029705B /* SFFindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3018C8F208EF1040029705B /* SFFindViewController.swift */; };
+		D3018C92208EF10C0029705B /* SFHearViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3018C91208EF10C0029705B /* SFHearViewController.swift */; };
+		D3018C9D208F04F60029705B /* SFNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3018C9B208F04F60029705B /* SFNavigationController.swift */; };
+		D3018C9E208F04F60029705B /* SFTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3018C9C208F04F60029705B /* SFTabBarController.swift */; };
+		D3018CA0208F05060029705B /* SFTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3018C9F208F05060029705B /* SFTabBar.swift */; };
+		D35536E6209408E1004E70F0 /* SystemCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35536E5209408E1004E70F0 /* SystemCommon.swift */; };
 		D3ACCC81208D903F00FB9126 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3ACCC80208D903F00FB9126 /* AppDelegate.swift */; };
-		D3ACCC83208D903F00FB9126 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3ACCC82208D903F00FB9126 /* ViewController.swift */; };
-		D3ACCC86208D903F00FB9126 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3ACCC84208D903F00FB9126 /* Main.storyboard */; };
 		D3ACCC88208D903F00FB9126 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3ACCC87208D903F00FB9126 /* Assets.xcassets */; };
 		D3ACCC8B208D903F00FB9126 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3ACCC89208D903F00FB9126 /* LaunchScreen.storyboard */; };
+		D3EA0AC72091F85700689797 /* SFMiddleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EA0AC62091F85700689797 /* SFMiddleView.swift */; };
+		D3EA0AC92091F89600689797 /* SFMiddleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3EA0AC82091F89600689797 /* SFMiddleView.xib */; };
+		EC810B4E04097BAF47BDBE4F /* Pods_XimalayaFM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 639CB6B58E59FBD00E3B6EE9 /* Pods_XimalayaFM.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		639CB6B58E59FBD00E3B6EE9 /* Pods_XimalayaFM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XimalayaFM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7847BC68C9700EDAE1B99F0D /* Pods-XimalayaFM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XimalayaFM.release.xcconfig"; path = "Pods/Target Support Files/Pods-XimalayaFM/Pods-XimalayaFM.release.xcconfig"; sourceTree = "<group>"; };
+		8F7FAFFA43A1EC1F5F3D4BFB /* Pods-XimalayaFM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XimalayaFM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XimalayaFM/Pods-XimalayaFM.debug.xcconfig"; sourceTree = "<group>"; };
+		D3018C8B208EF0F50029705B /* SFHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFHomeViewController.swift; sourceTree = "<group>"; };
+		D3018C8D208EF0FD0029705B /* SFMyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFMyViewController.swift; sourceTree = "<group>"; };
+		D3018C8F208EF1040029705B /* SFFindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFFindViewController.swift; sourceTree = "<group>"; };
+		D3018C91208EF10C0029705B /* SFHearViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFHearViewController.swift; sourceTree = "<group>"; };
+		D3018C9B208F04F60029705B /* SFNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFNavigationController.swift; sourceTree = "<group>"; };
+		D3018C9C208F04F60029705B /* SFTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFTabBarController.swift; sourceTree = "<group>"; };
+		D3018C9F208F05060029705B /* SFTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFTabBar.swift; sourceTree = "<group>"; };
+		D35536E5209408E1004E70F0 /* SystemCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemCommon.swift; sourceTree = "<group>"; };
 		D3ACCC7D208D903F00FB9126 /* XimalayaFM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XimalayaFM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3ACCC80208D903F00FB9126 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D3ACCC82208D903F00FB9126 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D3ACCC85208D903F00FB9126 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D3ACCC87208D903F00FB9126 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3ACCC8A208D903F00FB9126 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3ACCC8C208D903F00FB9126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3EA0AC62091F85700689797 /* SFMiddleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFMiddleView.swift; sourceTree = "<group>"; };
+		D3EA0AC82091F89600689797 /* SFMiddleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SFMiddleView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +49,227 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC810B4E04097BAF47BDBE4F /* Pods_XimalayaFM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21B0E6F4F0CD21A1D2BDDFCF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				639CB6B58E59FBD00E3B6EE9 /* Pods_XimalayaFM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAA0F9107DAA7DC76DFC6B5E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F7FAFFA43A1EC1F5F3D4BFB /* Pods-XimalayaFM.debug.xcconfig */,
+				7847BC68C9700EDAE1B99F0D /* Pods-XimalayaFM.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D3018C76208ECCEC0029705B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D3018C77208ECCEC0029705B /* Hear */,
+				D3018C7B208ECCEC0029705B /* Home */,
+				D3018C7F208ECCEC0029705B /* My */,
+				D3018C83208ECCEC0029705B /* Find */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D3018C77208ECCEC0029705B /* Hear */ = {
+			isa = PBXGroup;
+			children = (
+				D3018C78208ECCEC0029705B /* Controller */,
+				D3018C79208ECCEC0029705B /* Model */,
+				D3018C7A208ECCEC0029705B /* View */,
+			);
+			path = Hear;
+			sourceTree = "<group>";
+		};
+		D3018C78208ECCEC0029705B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D3018C91208EF10C0029705B /* SFHearViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D3018C79208ECCEC0029705B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D3018C7A208ECCEC0029705B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D3018C7B208ECCEC0029705B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D3018C7C208ECCEC0029705B /* Controller */,
+				D3018C7D208ECCEC0029705B /* Model */,
+				D3018C7E208ECCEC0029705B /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D3018C7C208ECCEC0029705B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D3018C8B208EF0F50029705B /* SFHomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D3018C7D208ECCEC0029705B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D3018C7E208ECCEC0029705B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D3018C7F208ECCEC0029705B /* My */ = {
+			isa = PBXGroup;
+			children = (
+				D3018C80208ECCEC0029705B /* Controller */,
+				D3018C81208ECCEC0029705B /* Model */,
+				D3018C82208ECCEC0029705B /* View */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		D3018C80208ECCEC0029705B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D3018C8D208EF0FD0029705B /* SFMyViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D3018C81208ECCEC0029705B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D3018C82208ECCEC0029705B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D3018C83208ECCEC0029705B /* Find */ = {
+			isa = PBXGroup;
+			children = (
+				D3018C84208ECCEC0029705B /* Controller */,
+				D3018C85208ECCEC0029705B /* Model */,
+				D3018C86208ECCEC0029705B /* View */,
+			);
+			path = Find;
+			sourceTree = "<group>";
+		};
+		D3018C84208ECCEC0029705B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D3018C8F208EF1040029705B /* SFFindViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D3018C85208ECCEC0029705B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D3018C86208ECCEC0029705B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D3018C87208ECCEC0029705B /* Module */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		D3018C88208ECCEC0029705B /* RootVC */ = {
+			isa = PBXGroup;
+			children = (
+				D3018C9A208F04F60029705B /* Controller */,
+				D3018C99208F04F60029705B /* View */,
+			);
+			path = RootVC;
+			sourceTree = "<group>";
+		};
+		D3018C95208EF81A0029705B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				D35536E4209408CC004E70F0 /* Common */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		D3018C99208F04F60029705B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D3018C9F208F05060029705B /* SFTabBar.swift */,
+				D3EA0AC62091F85700689797 /* SFMiddleView.swift */,
+				D3EA0AC82091F89600689797 /* SFMiddleView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D3018C9A208F04F60029705B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D3018C9B208F04F60029705B /* SFNavigationController.swift */,
+				D3018C9C208F04F60029705B /* SFTabBarController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D35536E4209408CC004E70F0 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D35536E5209408E1004E70F0 /* SystemCommon.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		D3ACCC74208D903F00FB9126 = {
 			isa = PBXGroup;
 			children = (
 				D3ACCC7F208D903F00FB9126 /* XimalayaFM */,
 				D3ACCC7E208D903F00FB9126 /* Products */,
+				CAA0F9107DAA7DC76DFC6B5E /* Pods */,
+				21B0E6F4F0CD21A1D2BDDFCF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,9 +284,11 @@
 		D3ACCC7F208D903F00FB9126 /* XimalayaFM */ = {
 			isa = PBXGroup;
 			children = (
+				D3018C88208ECCEC0029705B /* RootVC */,
+				D3018C76208ECCEC0029705B /* Main */,
+				D3018C87208ECCEC0029705B /* Module */,
+				D3018C95208EF81A0029705B /* Other */,
 				D3ACCC80208D903F00FB9126 /* AppDelegate.swift */,
-				D3ACCC82208D903F00FB9126 /* ViewController.swift */,
-				D3ACCC84208D903F00FB9126 /* Main.storyboard */,
 				D3ACCC87208D903F00FB9126 /* Assets.xcassets */,
 				D3ACCC89208D903F00FB9126 /* LaunchScreen.storyboard */,
 				D3ACCC8C208D903F00FB9126 /* Info.plist */,
@@ -71,9 +303,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3ACCC8F208D903F00FB9126 /* Build configuration list for PBXNativeTarget "XimalayaFM" */;
 			buildPhases = (
+				AFB03B56EF2432622FED0D8D /* [CP] Check Pods Manifest.lock */,
 				D3ACCC79208D903F00FB9126 /* Sources */,
 				D3ACCC7A208D903F00FB9126 /* Frameworks */,
 				D3ACCC7B208D903F00FB9126 /* Resources */,
+				9E0995FD535FF2ED040D5B27 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -90,6 +324,7 @@
 		D3ACCC75208D903F00FB9126 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SF;
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Brian Inc.";
@@ -124,19 +359,66 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3ACCC8B208D903F00FB9126 /* LaunchScreen.storyboard in Resources */,
+				D3EA0AC92091F89600689797 /* SFMiddleView.xib in Resources */,
 				D3ACCC88208D903F00FB9126 /* Assets.xcassets in Resources */,
-				D3ACCC86208D903F00FB9126 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9E0995FD535FF2ED040D5B27 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-XimalayaFM/Pods-XimalayaFM-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SFExtensions/SFExtensions.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SFExtensions.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XimalayaFM/Pods-XimalayaFM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFB03B56EF2432622FED0D8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XimalayaFM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D3ACCC79208D903F00FB9126 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3ACCC83208D903F00FB9126 /* ViewController.swift in Sources */,
+				D3018C8C208EF0F50029705B /* SFHomeViewController.swift in Sources */,
+				D3018C8E208EF0FD0029705B /* SFMyViewController.swift in Sources */,
+				D3018C9E208F04F60029705B /* SFTabBarController.swift in Sources */,
+				D3018C9D208F04F60029705B /* SFNavigationController.swift in Sources */,
+				D3EA0AC72091F85700689797 /* SFMiddleView.swift in Sources */,
+				D35536E6209408E1004E70F0 /* SystemCommon.swift in Sources */,
+				D3018CA0208F05060029705B /* SFTabBar.swift in Sources */,
+				D3018C92208EF10C0029705B /* SFHearViewController.swift in Sources */,
+				D3018C90208EF1040029705B /* SFFindViewController.swift in Sources */,
 				D3ACCC81208D903F00FB9126 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,14 +426,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D3ACCC84208D903F00FB9126 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D3ACCC85208D903F00FB9126 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D3ACCC89208D903F00FB9126 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -272,6 +546,7 @@
 		};
 		D3ACCC90208D903F00FB9126 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F7FAFFA43A1EC1F5F3D4BFB /* Pods-XimalayaFM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +562,7 @@
 		};
 		D3ACCC91208D903F00FB9126 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7847BC68C9700EDAE1B99F0D /* Pods-XimalayaFM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

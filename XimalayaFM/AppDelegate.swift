@@ -12,10 +12,43 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    
+    var isPlay = false
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        
+        let rootVC = SFTabBarController.tabBarControllerWithAddChildVCsBlock { (tabbarVC) in
+            
+            tabbarVC.addChildVC(childVC: SFHomeViewController(), normalImage: "tabbar_icon_homepage_normal", selectedImage: "tabbar_icon_homepage_pressed", isRequiredNavigationController: true)
+            tabbarVC.addChildVC(childVC: SFHomeViewController(), normalImage: "tabbar_icon_hear_normal", selectedImage: "tabbar_icon_hear_pressed", isRequiredNavigationController: true)
+            tabbarVC.addChildVC(childVC: SFHomeViewController(), normalImage: "tabbar_icon_find_normal", selectedImage: "tabbar_icon_find_pressed", isRequiredNavigationController: true)
+            tabbarVC.addChildVC(childVC: SFHomeViewController(), normalImage: "tabbar_icon_my_normal", selectedImage: "tabbar_icon_my_pressed", isRequiredNavigationController: true)
+            
+            }
+        
+        if let tabBar = rootVC.tabBar as? SFTabBar {
+            tabBar.middleClickClosure = { [weak self] (isPlaying) in
+                if isPlaying {
+                    print("play")
+                    self?.isPlay = !(self?.isPlay)!
+                    let middleImage = UIImage()
+                    NotificationCenter.default.post(name: NSNotification.Name(rawValue: "playImage"), object: middleImage)
+                    NotificationCenter.default.post(name: NSNotification.Name(rawValue: "playState"), object: self?.isPlay)
+                } else {
+                    print("pause")
+                    self?.isPlay = !(self?.isPlay)!
+                    let middleImage = UIImage()
+                    NotificationCenter.default.post(name: NSNotification.Name(rawValue: "playImage"), object: middleImage)
+                    NotificationCenter.default.post(name: NSNotification.Name(rawValue: "playState"), object: self?.isPlay)
+                }
+            }
+        }
+        
+        self.window = UIWindow()
+        self.window?.rootViewController = rootVC
+        self.window?.makeKeyAndVisible()
+        
         return true
     }
 

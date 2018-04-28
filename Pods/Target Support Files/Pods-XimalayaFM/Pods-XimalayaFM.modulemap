@@ -1,0 +1,6 @@
+framework module Pods_XimalayaFM {
+  umbrella header "Pods-XimalayaFM-umbrella.h"
+
+  export *
+  module * { export * }
+}

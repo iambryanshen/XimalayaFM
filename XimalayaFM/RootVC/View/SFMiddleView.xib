@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SFMiddleView" customModule="XimalayaFM" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="65" height="65"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tabbar_np_shadow" translatesAutoresizingMaskIntoConstraints="NO" id="vEb-TH-ZpY">
+                    <rect key="frame" x="0.0" y="0.0" width="65" height="65"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tabbar_np_normal" translatesAutoresizingMaskIntoConstraints="NO" id="Hxd-fP-U1I">
+                    <rect key="frame" x="0.0" y="0.0" width="65" height="65"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zxy_icon" translatesAutoresizingMaskIntoConstraints="NO" id="rpa-sf-SKz">
+                    <rect key="frame" x="11" y="11" width="43" height="43"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VZA-N1-88P">
+                    <rect key="frame" x="10" y="10" width="45" height="45"/>
+                    <state key="normal" image="tabbar_np_play"/>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tabbar_np_playshadow" translatesAutoresizingMaskIntoConstraints="NO" id="yzW-eg-poE">
+                    <rect key="frame" x="0.0" y="0.0" width="65" height="65"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="yzW-eg-poE" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="2EW-rW-mdr"/>
+                <constraint firstAttribute="bottom" secondItem="rpa-sf-SKz" secondAttribute="bottom" constant="11" id="4V8-mE-gmN"/>
+                <constraint firstItem="VZA-N1-88P" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="9GH-av-hqv"/>
+                <constraint firstAttribute="bottom" secondItem="Hxd-fP-U1I" secondAttribute="bottom" id="AtM-eg-2g4"/>
+                <constraint firstAttribute="trailing" secondItem="VZA-N1-88P" secondAttribute="trailing" constant="10" id="EVn-RJ-I7f"/>
+                <constraint firstItem="Hxd-fP-U1I" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="EhN-ZO-h4r"/>
+                <constraint firstItem="rpa-sf-SKz" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="11" id="FTs-6E-AIe"/>
+                <constraint firstAttribute="trailing" secondItem="vEb-TH-ZpY" secondAttribute="trailing" id="Fdd-TR-Yof"/>
+                <constraint firstAttribute="trailing" secondItem="vEb-TH-ZpY" secondAttribute="trailing" id="Hxq-ia-MSB"/>
+                <constraint firstItem="Hxd-fP-U1I" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="SIE-ah-Srq"/>
+                <constraint firstItem="vEb-TH-ZpY" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Xj0-pr-8ss"/>
+                <constraint firstAttribute="trailing" secondItem="rpa-sf-SKz" secondAttribute="trailing" constant="11" id="Yaf-Tb-IuS"/>
+                <constraint firstItem="VZA-N1-88P" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="Yp2-mh-4wb"/>
+                <constraint firstAttribute="bottom" secondItem="VZA-N1-88P" secondAttribute="bottom" constant="10" id="Zu3-Xk-Nbo"/>
+                <constraint firstAttribute="bottom" secondItem="vEb-TH-ZpY" secondAttribute="bottom" id="aeP-Jv-ubn"/>
+                <constraint firstAttribute="bottom" secondItem="yzW-eg-poE" secondAttribute="bottom" id="bzs-cR-0vc"/>
+                <constraint firstAttribute="trailing" secondItem="yzW-eg-poE" secondAttribute="trailing" id="jIV-Xt-eoi"/>
+                <constraint firstItem="rpa-sf-SKz" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="11" id="uXA-Jo-Zqj"/>
+                <constraint firstItem="yzW-eg-poE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="yJy-TU-gnc"/>
+                <constraint firstAttribute="trailing" secondItem="Hxd-fP-U1I" secondAttribute="trailing" id="zaI-Te-wdg"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="middleImageView" destination="rpa-sf-SKz" id="Uac-OB-Bx2"/>
+                <outlet property="playButton" destination="VZA-N1-88P" id="EOF-D8-nbJ"/>
+            </connections>
+            <point key="canvasLocation" x="-90.5" y="36"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="tabbar_np_normal" width="65" height="65"/>
+        <image name="tabbar_np_play" width="50" height="50"/>
+        <image name="tabbar_np_playshadow" width="50" height="50"/>
+        <image name="tabbar_np_shadow" width="75" height="65"/>
+        <image name="zxy_icon" width="48" height="48"/>
+    </resources>
+</document>
