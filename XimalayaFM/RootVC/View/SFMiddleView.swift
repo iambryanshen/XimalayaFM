@@ -21,9 +21,8 @@ class SFMiddleView: UIView {
                 return
             }
             if isPlaying {
-                self.playButton.setImage(nil, for: .normal)
                 print("开始播放")
-                print(self.middleImageView)
+                self.playButton.setImage(nil, for: .normal)
                 self.middleImageView.layer.resumeAnimation()
             } else {
                 print("暂停播放")
@@ -46,7 +45,7 @@ class SFMiddleView: UIView {
     
     static let share = SFMiddleView.middleView()
     
-    private static func middleView() -> SFMiddleView {
+    static func middleView() -> SFMiddleView {
         let middleView = Bundle.main.loadNibNamed("SFMiddleView", owner: nil, options: nil)?.first as! SFMiddleView
         return middleView
     }

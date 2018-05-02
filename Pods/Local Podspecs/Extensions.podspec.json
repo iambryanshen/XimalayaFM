@@ -1,0 +1,23 @@
+{
+  "name": "Extensions",
+  "version": "0.0.1",
+  "summary": "Extensions.",
+  "description": "Extensions.类扩展",
+  "homepage": "http://EXAMPLE/Extensions",
+  "license": "MIT",
+  "authors": {
+    "brianbryant": "brianbryant@126.com"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "git": "",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "Sources",
+    "Sources/**/*.{h,m,swift}"
+  ],
+  "exclude_files": "Sources/Exclude"
+}

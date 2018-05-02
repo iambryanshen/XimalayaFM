@@ -18,6 +18,7 @@
 		D3ACCC81208D903F00FB9126 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3ACCC80208D903F00FB9126 /* AppDelegate.swift */; };
 		D3ACCC88208D903F00FB9126 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3ACCC87208D903F00FB9126 /* Assets.xcassets */; };
 		D3ACCC8B208D903F00FB9126 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3ACCC89208D903F00FB9126 /* LaunchScreen.storyboard */; };
+		D3B12DC52099698100663E7B /* SFPlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B12DC42099698100663E7B /* SFPlayViewController.swift */; };
 		D3EA0AC72091F85700689797 /* SFMiddleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EA0AC62091F85700689797 /* SFMiddleView.swift */; };
 		D3EA0AC92091F89600689797 /* SFMiddleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3EA0AC82091F89600689797 /* SFMiddleView.xib */; };
 		EC810B4E04097BAF47BDBE4F /* Pods_XimalayaFM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 639CB6B58E59FBD00E3B6EE9 /* Pods_XimalayaFM.framework */; };
@@ -40,6 +41,7 @@
 		D3ACCC87208D903F00FB9126 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3ACCC8A208D903F00FB9126 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3ACCC8C208D903F00FB9126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3B12DC42099698100663E7B /* SFPlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFPlayViewController.swift; sourceTree = "<group>"; };
 		D3EA0AC62091F85700689797 /* SFMiddleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFMiddleView.swift; sourceTree = "<group>"; };
 		D3EA0AC82091F89600689797 /* SFMiddleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SFMiddleView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -215,6 +217,7 @@
 		D3018C87208ECCEC0029705B /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				D3B12DC02099697300663E7B /* Play */,
 			);
 			path = Module;
 			sourceTree = "<group>";
@@ -294,6 +297,38 @@
 				D3ACCC8C208D903F00FB9126 /* Info.plist */,
 			);
 			path = XimalayaFM;
+			sourceTree = "<group>";
+		};
+		D3B12DC02099697300663E7B /* Play */ = {
+			isa = PBXGroup;
+			children = (
+				D3B12DC12099697300663E7B /* Controller */,
+				D3B12DC22099697300663E7B /* Model */,
+				D3B12DC32099697300663E7B /* View */,
+			);
+			path = Play;
+			sourceTree = "<group>";
+		};
+		D3B12DC12099697300663E7B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D3B12DC42099698100663E7B /* SFPlayViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D3B12DC22099697300663E7B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D3B12DC32099697300663E7B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -419,6 +454,7 @@
 				D3018CA0208F05060029705B /* SFTabBar.swift in Sources */,
 				D3018C92208EF10C0029705B /* SFHearViewController.swift in Sources */,
 				D3018C90208EF1040029705B /* SFFindViewController.swift in Sources */,
+				D3B12DC52099698100663E7B /* SFPlayViewController.swift in Sources */,
 				D3ACCC81208D903F00FB9126 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -556,7 +592,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.brian.XimalayaFM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -572,7 +608,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.brian.XimalayaFM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
