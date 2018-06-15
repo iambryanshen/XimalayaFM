@@ -85,7 +85,6 @@ extension SFTabBar {
     override func point(inside point: CGPoint, with event: UIEvent?) -> Bool {
         
         let pointAtMiddleView = convert(point, to: middleView)
-        print("pointAtMiddleView = ", pointAtMiddleView)
         
         let middleViewCenter = CGPoint(x: middleViewWidth * 0.5, y: middleViewWidth * 0.5)
         
